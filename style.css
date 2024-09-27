@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Dancing+Script:wght@400..700&family=Gowun+Batang:wght@400;700&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.form{
+    background: #2160AD;
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    gap: 80px;
+}
+.form .left{
+    color: white;
+    width: 40%;
+}
+.form .left ul{
+    margin: 30px 0;
+}
+.form .left ul li{
+    display: flex;
+    gap: 20px;
+    margin: 30px 0 0 0;
+    list-style: none;
+}
+.form .left button{
+    padding: 11px 20px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    display: flex;
+    gap: 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 15px;
+}
+.form .right {
+    width: 50%;
+    margin-left: 60px;
+}
+.form .right .formpage{
+    width: 450px;
+    background: white;
+    padding: 35px;
+    border-radius: 10px;
+    margin-bottom: 42px;
+}
+.form .right .formpage input{
+    width: 100%;
+    padding: 7px 10px;
+    margin-bottom: 20px;
+    outline: 0;
+}
+.form .right .formpage span{
+    color: red;
+}
+.form .right .twoinputs{
+    display: flex;
+    gap: 23px;
+}
+.form .right button{
+    width: 100%;
+    padding: 8px 0;
+    margin: 5px 0 20px 0;
+    border: 0;
+    outline: 0;
+    background: #2160AD;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.roles{
+    width: 85%;
+    margin: auto;
+}
+.roles .role{
+    display: flex;
+    gap: 30px;
+    margin: 20px 0;
+}
+.roles .role .rolename{
+    display: flex;
+    gap: 10px;
+    background: white;
+    border: 0.3px solid gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px gray;
+}
+.roles .role .rolename p{
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.skills{
+    background: #F9FAFB;
+    padding: 20px 30px;
+}
+.skills .languages{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+.skills .languages img{
+    width: 60px;
+}
+
+.hire{
+    padding: 30px 0;
+}
+.hire .boxes{
+    width: 85%;
+    margin:20px auto;
+    display: flex;
+    gap: 20px;
+}
+.hire .boxes .box{
+    padding: 30px 15px;
+    background: #2160AD;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    width: 400px;
+    height: 120px;
+}
+
+.guide .lists{
+    width: 800px;
+    padding: 10px 20px;
+    border: 1px solid gray;
+    margin: 0 30px 20px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px gray;
+    display: flex;
+    gap: 30px;
+}
+.lists button{
+    padding: 5px 20px;
+    font-size: 12px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+.guide .guideprogram{
+    display: flex;
+    gap: 30px;
+}
+.guide .guideprogram .leftdata{
+    padding: 20px 30px;
+    width: 50%;
+}
+.guide .guideprogram .leftdata ul li{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    color: blue;
+}
+
+.guide .guideprogram .rightimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+.guide .guideprogram .rightimg img{
+    width: 600px;
+}
